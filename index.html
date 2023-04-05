@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/sketchy/bootstrap.min.css" integrity="sha384-RxqHG2ilm4r6aFRpGmBbGTjsqwfqHOKy1ArsMhHusnRO47jcGqpIQqlQK/kmGy9R" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Merendero Los Chicos del Barrio</title>
+</head>
+<body>
+    <header>
+        <h2>Merendero Los Chicos del Barrio</h2>
+        <nav>
+            <a href="">Inicio</a>
+            <a href="">Quienes somos</a>
+            <a href="">Donaciones</a>
+            <a href="">Servicios</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Registre a sus chicos aqui</h1>
+        <form id="formularioUsuarios">
+            <div class="inputContainer">
+                <label for="nombre">Ingrese su nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Agustin" required> 
+            </div>
+            <div class="inputContainer">
+                <label for="apellido">Ingrese su apellido</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Gonzalez" required>
+            </div>
+            <div class="inputContainer">
+                <label for="matricula">Numero de Matricula</label>
+                <input type="number" id="matricula" name="matricula" placeholder="7676545" required>
+            </div>            
+            <div class="inputContainer">
+                <label for="edad">Edad</label>
+                <input type="number" id="edad" name="edad" placeholder="Ingrese su edad" required> 
+            </div>
+            <div class="inputContainer">
+                <label for="titular">Nombre y Apellido del Titular</label>
+                <input type="text" id="titular" name="titular" placeholder="Ingrese el nombre y apellido del titular" required> 
+            </div>                      
+            <div class="inputContainer">
+                <label for="provincia">Seleccione su provincia</label>
+                <select name="provincia" id="provincia">
+                    <option value="Buenos Aires">Buenos Aires</option>
+                    <option value="Catamarca">Catamarca</option>
+                    <option value="Chaco">Chaco</option>
+                    <option value="Chubut">Chubut</option>
+                    <option value="Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
+                    <option value="Córdoba">Córdoba</option>
+                    <option value="Corrientes">Corrientes</option>
+                    <option value="Entre Ríos">Entre Ríos</option>
+                    <option value="Formosa">Formosa</option>
+                    <option value="Jujuy">Jujuy</option>
+                    <option value="La Pampa">La Pampa</option>
+                    <option value="La Rioja">La Rioja</option>
+                    <option value="Mendoza">Mendoza</option>
+                    <option value="Misiones">Misiones</option>
+                    <option value="Neuquén">Neuquén</option>
+                    <option value="Río Negro">Río Negro</option>
+                    <option value="Salta">Salta</option>
+                    <option value="San Juan">San Juan</option>
+                    <option value="San Luis">San Luis</option>
+                    <option value="Santa Cruz">Santa Cruz</option>
+                    <option value="Santa Fe">Santa Fe</option>
+                    <option value="Santiago del Estero">Santiago del Estero</option>
+                    <option value="Tierra del Fuego, Antártida e Islas del Atlántico Sur">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+                    <option value="Tucumán">Tucumán</option>
+                </select>
+            </div>
+            <input type="submit" value="Registrar" class="btn-registrar"/>
+        </form>        
+        <div class="contenedorUsuarios"></div>        
+        <p><span id="totalChicos"></span></p>
+          </div>
+          
+    </main>
+    <footer>
+        <p>Asnes Jonathan German & Co. Comision 170 Grupo 3 Argentina Programa 2023 ®Todos los derechos reservados</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
