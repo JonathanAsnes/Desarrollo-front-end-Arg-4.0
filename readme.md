@@ -8,5 +8,5 @@ La problematica que se busca resolver a través de este formulario web es la fal
 
 Además, la inclusión del número de matrícula y el nombre del titular busca reforzar la seguridad y transparencia en la entrega de alimentos y recursos a los niños y niñas, ya que se busca evitar que personas ajenas al merendero puedan hacerse pasar por familiares o tutores y obtener beneficios indebidos.
 
-En definitiva, la idea es generar un registro completo y confiable de los usuarios del merendero, que permita a las ONG tener un mejor control sobre la asistencia y necesidades de los niños y niñas que asisten a este espacio.
+En definitiva, la idea es generar un registro completo y confiable de los usuarios del merendero, que permita a las ONG tener un mejor control sobre la asistencia y necesidades de los niños y niñas que asisten a este espacio
 
